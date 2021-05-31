@@ -25,8 +25,7 @@ window.onload = function() {
     document.getElementById('volume').innerHTML = "The volume is: " + volumeRounded + " cm³"
   } else {
     // output
-    document.getElementById("noQuery").removeAttribute("hidden")
-
+    document.getElementById("no-query").removeAttribute("hidden")
   }
 }
 
@@ -43,4 +42,3 @@ function calculateClicked () {
   // output
   document.getElementById("volume").innerHTML = 'The volume is: ' + volumeRounded + ' cm³'
 }
-
