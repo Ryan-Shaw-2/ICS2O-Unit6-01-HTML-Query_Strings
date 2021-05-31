@@ -19,8 +19,16 @@
     <h1>Volume of a sphere, with query strings</h1>
     <h2>Formula</h2>
     <h3>V = 4/3 x π x r³</h3>
+    <p>
+      <form hidden action="javascript:calculateClicked()" id="noQuery">
+        <label for="radius">Radius: </label>
+        <input type="number" step=".01" id="radius" placeholder="e.g 5">
+        <label for="unit">cm</label><br><br>
+        <input type="submit" value="Calclulate">
+      </form>
+    </p>
     <div id="answers">
-      <p>Dimensions</p>
+      <div id="dimensions-text"></div>
       <div id="dimensions"></div>
       <div id="volume"></div>
     </div>
